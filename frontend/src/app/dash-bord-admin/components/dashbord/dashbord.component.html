@@ -1,0 +1,14 @@
+<mat-sidenav-container class="mb-5">
+  <mat-sidenav class=" side-navbar" #sideNav mode="side" opened>
+    <app-side-navbar> </app-side-navbar>
+
+    </mat-sidenav>
+  <mat-sidenav-content >
+
+      <router-outlet ></router-outlet>
+
+    <app-orders *ngIf="flag"></app-orders>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
+

@@ -1,0 +1,42 @@
+.mat-icon {
+  font-size: 100%;
+  padding: 10px 0px;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+td {
+  padding-right: 8px;
+}
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  button{
+    width:50%
+  }
+  #submit-button{
+    background-color:#317ECE ;
+    color:white;
+  }
+}
+.fa-truck{
+  color:#317ECE;
+}
